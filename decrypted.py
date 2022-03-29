@@ -13,7 +13,7 @@ file_name = "OrderActivity_OMC_2022-03-17.xlsx.gpg" #Probando.txt.gpg" #OrderAct
 data = f"{location}/{file_name}"
 
 with open(data, "rb") as f:
-	   status = gpg.decrypt_file(f, passphrase="pass",
+	   status = gpg.decrypt_file(f, passphrase="xgs@?Hc3FUfJ",
 	   output = f"{location}/{file_name.replace('.gpg','')}")
 
 print("ok: ", status.ok)
